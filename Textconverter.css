@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #0172AF, #74FEBD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 100vh;
+    margin: 200px auto;
+    font-size: 22px;
+    text-align: center;
+}
+.title h1 {
+    color: white;
+    font-weight: 300;
+}
+.title span {
+    color: rgb(200, 13, 13);
+    font-weight: 900;
+}
+.textBox textarea {
+    margin-top: 20px;
+    border-radius: 18px;
+    width: 500px;
+    height: 150px;
+    overflow: scroll;
+    scrollbar-width: none;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+    resize: none;
+    color: rgb(73, 72, 72);
+    background-color: rgb(180, 174, 174);
+}
+select {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 60%;
+    padding-left: 20px;
+    color: rgb(73, 72, 72);
+    background-color: rgb(180, 174, 174);
+    height: 40px;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+button { 
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 20%;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: red;
+    
+}
